@@ -34,9 +34,10 @@
             // 
             // button1
             // 
-            button1.Location = new Point(248, 245);
+            button1.Location = new Point(142, 74);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(94, 29);
+            button1.Size = new Size(82, 22);
             button1.TabIndex = 0;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
@@ -45,22 +46,24 @@
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(526, 157);
+            checkBox1.Location = new Point(142, 100);
+            checkBox1.Margin = new Padding(3, 2, 3, 2);
             checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(101, 24);
+            checkBox1.Size = new Size(83, 19);
             checkBox1.TabIndex = 1;
             checkBox1.Text = "checkBox1";
             checkBox1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1273, 642);
             Controls.Add(checkBox1);
             Controls.Add(button1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Skrot";
             ResumeLayout(false);
             PerformLayout();
         }
