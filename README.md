@@ -1,2 +1,3 @@
-# skrot
-A general purpose IT Helpdesk helper.  Skrot is Polish for Hash, as in hashing algorithm.
+# Skrot
+A general purpose IT Helpdesk helper.
+Skrot is Polish for Hash, as in hashing algorithm, a computer related term of course, but in Polish it made me chuckle.
