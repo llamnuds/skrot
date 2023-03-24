@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shaun\\source\\repos\\Skrot\\Skrot.csproj": {}
+    "C:\\Users\\shaun.dunmall.adm\\source\\repos\\skrot\\Skrot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shaun\\source\\repos\\Skrot\\Skrot.csproj": {
+    "C:\\Users\\shaun.dunmall.adm\\source\\repos\\skrot\\Skrot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shaun\\source\\repos\\Skrot\\Skrot.csproj",
+        "projectUniqueName": "C:\\Users\\shaun.dunmall.adm\\source\\repos\\skrot\\Skrot.csproj",
         "projectName": "Skrot",
-        "projectPath": "C:\\Users\\shaun\\source\\repos\\Skrot\\Skrot.csproj",
-        "packagesPath": "C:\\Users\\shaun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shaun\\source\\repos\\Skrot\\obj\\",
+        "projectPath": "C:\\Users\\shaun.dunmall.adm\\source\\repos\\skrot\\Skrot.csproj",
+        "packagesPath": "C:\\Users\\shaun.dunmall.adm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shaun.dunmall.adm\\Source\\Repos\\skrot\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\shaun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shaun.dunmall.adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,8 +25,8 @@
           "net6.0-windows"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "Https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {}
         },
         "frameworks": {
           "net6.0-windows7.0": {

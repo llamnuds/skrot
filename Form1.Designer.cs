@@ -41,6 +41,18 @@
             analyzeToolStripMenuItem = new ToolStripMenuItem();
             toolsToolStripMenuItem = new ToolStripMenuItem();
             helpToolStripMenuItem1 = new ToolStripMenuItem();
+            aDDomainToolStripMenuItem = new ToolStripMenuItem();
+            installersToolStripMenuItem = new ToolStripMenuItem();
+            webPageToolStripMenuItem = new ToolStripMenuItem();
+            addAFileLocationToolStripMenuItem = new ToolStripMenuItem();
+            addAPowershellScriptToolStripMenuItem = new ToolStripMenuItem();
+            uRLsToolStripMenuItem = new ToolStripMenuItem();
+            filesAndFoldersToolStripMenuItem = new ToolStripMenuItem();
+            applicationsToolStripMenuItem = new ToolStripMenuItem();
+            scriptsToolStripMenuItem = new ToolStripMenuItem();
+            toolStripMenuItem1 = new ToolStripMenuItem();
+            installerToolStripMenuItem = new ToolStripMenuItem();
+            launcherToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -49,7 +61,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { helpToolStripMenuItem, aboutToolStripMenuItem, viewToolStripMenuItem, testToolStripMenuItem, analyzeToolStripMenuItem, toolsToolStripMenuItem, helpToolStripMenuItem1 });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(1273, 24);
+            menuStrip1.Size = new Size(501, 24);
             menuStrip1.TabIndex = 2;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -63,44 +75,46 @@
             // newToolStripMenuItem
             // 
             newToolStripMenuItem.Name = "newToolStripMenuItem";
-            newToolStripMenuItem.Size = new Size(180, 22);
+            newToolStripMenuItem.Size = new Size(114, 22);
             newToolStripMenuItem.Text = "New";
             // 
             // openToolStripMenuItem
             // 
             openToolStripMenuItem.Name = "openToolStripMenuItem";
-            openToolStripMenuItem.Size = new Size(180, 22);
+            openToolStripMenuItem.Size = new Size(114, 22);
             openToolStripMenuItem.Text = "Open";
             // 
             // saveToolStripMenuItem
             // 
             saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            saveToolStripMenuItem.Size = new Size(180, 22);
+            saveToolStripMenuItem.Size = new Size(114, 22);
             saveToolStripMenuItem.Text = "Save";
             // 
             // saveAsToolStripMenuItem
             // 
             saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            saveAsToolStripMenuItem.Size = new Size(180, 22);
+            saveAsToolStripMenuItem.Size = new Size(114, 22);
             saveAsToolStripMenuItem.Text = "Save As";
             // 
             // exitToolStripMenuItem
             // 
             exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            exitToolStripMenuItem.Size = new Size(180, 22);
+            exitToolStripMenuItem.Size = new Size(114, 22);
             exitToolStripMenuItem.Text = "Exit";
             // 
             // aboutToolStripMenuItem
             // 
+            aboutToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { aDDomainToolStripMenuItem, webPageToolStripMenuItem, addAFileLocationToolStripMenuItem, installersToolStripMenuItem, addAPowershellScriptToolStripMenuItem });
             aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             aboutToolStripMenuItem.Size = new Size(39, 20);
             aboutToolStripMenuItem.Text = "Edit";
             // 
             // viewToolStripMenuItem
             // 
+            viewToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { toolStripMenuItem1, uRLsToolStripMenuItem, filesAndFoldersToolStripMenuItem, applicationsToolStripMenuItem, scriptsToolStripMenuItem });
             viewToolStripMenuItem.Name = "viewToolStripMenuItem";
-            viewToolStripMenuItem.Size = new Size(44, 20);
-            viewToolStripMenuItem.Text = "View";
+            viewToolStripMenuItem.Size = new Size(88, 20);
+            viewToolStripMenuItem.Text = "View/Launch";
             // 
             // testToolStripMenuItem
             // 
@@ -126,11 +140,84 @@
             helpToolStripMenuItem1.Size = new Size(44, 20);
             helpToolStripMenuItem1.Text = "Help";
             // 
+            // aDDomainToolStripMenuItem
+            // 
+            aDDomainToolStripMenuItem.Name = "aDDomainToolStripMenuItem";
+            aDDomainToolStripMenuItem.Size = new Size(198, 22);
+            aDDomainToolStripMenuItem.Text = "Configure AD Domain";
+            // 
+            // installersToolStripMenuItem
+            // 
+            installersToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { installerToolStripMenuItem, launcherToolStripMenuItem });
+            installersToolStripMenuItem.Name = "installersToolStripMenuItem";
+            installersToolStripMenuItem.Size = new Size(198, 22);
+            installersToolStripMenuItem.Text = "Add a Program";
+            // 
+            // webPageToolStripMenuItem
+            // 
+            webPageToolStripMenuItem.Name = "webPageToolStripMenuItem";
+            webPageToolStripMenuItem.Size = new Size(198, 22);
+            webPageToolStripMenuItem.Text = "Add a Web Page";
+            // 
+            // addAFileLocationToolStripMenuItem
+            // 
+            addAFileLocationToolStripMenuItem.Name = "addAFileLocationToolStripMenuItem";
+            addAFileLocationToolStripMenuItem.Size = new Size(198, 22);
+            addAFileLocationToolStripMenuItem.Text = "Add a File Location";
+            // 
+            // addAPowershellScriptToolStripMenuItem
+            // 
+            addAPowershellScriptToolStripMenuItem.Name = "addAPowershellScriptToolStripMenuItem";
+            addAPowershellScriptToolStripMenuItem.Size = new Size(198, 22);
+            addAPowershellScriptToolStripMenuItem.Text = "Add a Powershell Script";
+            // 
+            // uRLsToolStripMenuItem
+            // 
+            uRLsToolStripMenuItem.Name = "uRLsToolStripMenuItem";
+            uRLsToolStripMenuItem.Size = new Size(180, 22);
+            uRLsToolStripMenuItem.Text = "URLs";
+            // 
+            // filesAndFoldersToolStripMenuItem
+            // 
+            filesAndFoldersToolStripMenuItem.Name = "filesAndFoldersToolStripMenuItem";
+            filesAndFoldersToolStripMenuItem.Size = new Size(180, 22);
+            filesAndFoldersToolStripMenuItem.Text = "Files and Folders";
+            // 
+            // applicationsToolStripMenuItem
+            // 
+            applicationsToolStripMenuItem.Name = "applicationsToolStripMenuItem";
+            applicationsToolStripMenuItem.Size = new Size(180, 22);
+            applicationsToolStripMenuItem.Text = "Applications";
+            // 
+            // scriptsToolStripMenuItem
+            // 
+            scriptsToolStripMenuItem.Name = "scriptsToolStripMenuItem";
+            scriptsToolStripMenuItem.Size = new Size(180, 22);
+            scriptsToolStripMenuItem.Text = "Scripts";
+            // 
+            // toolStripMenuItem1
+            // 
+            toolStripMenuItem1.Name = "toolStripMenuItem1";
+            toolStripMenuItem1.Size = new Size(180, 22);
+            toolStripMenuItem1.Text = "Active Directory";
+            // 
+            // installerToolStripMenuItem
+            // 
+            installerToolStripMenuItem.Name = "installerToolStripMenuItem";
+            installerToolStripMenuItem.Size = new Size(180, 22);
+            installerToolStripMenuItem.Text = "Installer";
+            // 
+            // launcherToolStripMenuItem
+            // 
+            launcherToolStripMenuItem.Name = "launcherToolStripMenuItem";
+            launcherToolStripMenuItem.Size = new Size(180, 22);
+            launcherToolStripMenuItem.Text = "Launcher";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1273, 642);
+            ClientSize = new Size(501, 356);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Margin = new Padding(3, 2, 3, 2);
@@ -157,5 +244,17 @@
         private ToolStripMenuItem analyzeToolStripMenuItem;
         private ToolStripMenuItem toolsToolStripMenuItem;
         private ToolStripMenuItem helpToolStripMenuItem1;
+        private ToolStripMenuItem aDDomainToolStripMenuItem;
+        private ToolStripMenuItem webPageToolStripMenuItem;
+        private ToolStripMenuItem addAFileLocationToolStripMenuItem;
+        private ToolStripMenuItem installersToolStripMenuItem;
+        private ToolStripMenuItem installerToolStripMenuItem;
+        private ToolStripMenuItem launcherToolStripMenuItem;
+        private ToolStripMenuItem addAPowershellScriptToolStripMenuItem;
+        private ToolStripMenuItem toolStripMenuItem1;
+        private ToolStripMenuItem uRLsToolStripMenuItem;
+        private ToolStripMenuItem filesAndFoldersToolStripMenuItem;
+        private ToolStripMenuItem applicationsToolStripMenuItem;
+        private ToolStripMenuItem scriptsToolStripMenuItem;
     }
 }
