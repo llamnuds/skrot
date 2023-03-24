@@ -1,0 +1,17 @@
+C:\Users\shaun\source\repos\Skrot\bin\Debug\net6.0-windows\Skrot.exe
+C:\Users\shaun\source\repos\Skrot\bin\Debug\net6.0-windows\Skrot.deps.json
+C:\Users\shaun\source\repos\Skrot\bin\Debug\net6.0-windows\Skrot.runtimeconfig.json
+C:\Users\shaun\source\repos\Skrot\bin\Debug\net6.0-windows\Skrot.dll
+C:\Users\shaun\source\repos\Skrot\bin\Debug\net6.0-windows\Skrot.pdb
+C:\Users\shaun\source\repos\Skrot\obj\Debug\net6.0-windows\Skrot.csproj.AssemblyReference.cache
+C:\Users\shaun\source\repos\Skrot\obj\Debug\net6.0-windows\Skrot.Form1.resources
+C:\Users\shaun\source\repos\Skrot\obj\Debug\net6.0-windows\Skrot.csproj.GenerateResource.cache
+C:\Users\shaun\source\repos\Skrot\obj\Debug\net6.0-windows\Skrot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shaun\source\repos\Skrot\obj\Debug\net6.0-windows\Skrot.AssemblyInfoInputs.cache
+C:\Users\shaun\source\repos\Skrot\obj\Debug\net6.0-windows\Skrot.AssemblyInfo.cs
+C:\Users\shaun\source\repos\Skrot\obj\Debug\net6.0-windows\Skrot.csproj.CoreCompileInputs.cache
+C:\Users\shaun\source\repos\Skrot\obj\Debug\net6.0-windows\Skrot.dll
+C:\Users\shaun\source\repos\Skrot\obj\Debug\net6.0-windows\refint\Skrot.dll
+C:\Users\shaun\source\repos\Skrot\obj\Debug\net6.0-windows\Skrot.pdb
+C:\Users\shaun\source\repos\Skrot\obj\Debug\net6.0-windows\Skrot.genruntimeconfig.cache
+C:\Users\shaun\source\repos\Skrot\obj\Debug\net6.0-windows\ref\Skrot.dll
