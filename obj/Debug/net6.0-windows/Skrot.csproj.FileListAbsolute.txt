@@ -32,3 +32,4 @@ C:\Users\shaun.dunmall.adm\Source\Repos\skrot\obj\Debug\net6.0-windows\refint\Sk
 C:\Users\shaun.dunmall.adm\Source\Repos\skrot\obj\Debug\net6.0-windows\Skrot.pdb
 C:\Users\shaun.dunmall.adm\Source\Repos\skrot\obj\Debug\net6.0-windows\Skrot.genruntimeconfig.cache
 C:\Users\shaun.dunmall.adm\Source\Repos\skrot\obj\Debug\net6.0-windows\ref\Skrot.dll
+C:\Users\shaun.dunmall.adm\source\repos\skrot\obj\Debug\net6.0-windows\Skrot.Properties.Resources.resources
