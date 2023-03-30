@@ -22,13 +22,18 @@ namespace Skrot
             // applications.Add("My EXE", "c:\\");
             int nextSlot = applicationsToolStripMenuItem.DropDownItems.Count;
             applicationsToolStripMenuItem.DropDownItems.Add("My EXE " + nextSlot);
-            applicationsToolStripMenuItem.DropDownItems[nextSlot].Click += applicationsToolStripMenuItem_Click;
-
+            applicationsToolStripMenuItem.DropDownItems[nextSlot].Click += applicationsToolStripMenuItemLaunch_Click;
+            launcherToolStripMenuItem.DropDownItems.Add("My EXE " + nextSlot);
+            launcherToolStripMenuItem.DropDownItems[nextSlot].Click += launcherToolStripMenuItemEdit_Click;
         }
 
-        private void applicationsToolStripMenuItem_Click(object sender, EventArgs e)
+        private void applicationsToolStripMenuItemLaunch_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Click " + sender.ToString());
+            MessageBox.Show("LAUNCH " + sender.ToString());
+        }
+        private void launcherToolStripMenuItemEdit_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("EDIT " + sender.ToString());
         }
 
     }
